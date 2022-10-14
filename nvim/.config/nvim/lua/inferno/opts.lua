@@ -33,6 +33,8 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.cmdheight = 1
 
+vim.opt.background = "dark"
+
 -- Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 -- delays and poor user experience.
 vim.opt.updatetime = 50
@@ -44,4 +46,3 @@ vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
 vim.opt.guicursor = ""
-

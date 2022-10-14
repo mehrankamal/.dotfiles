@@ -1,4 +1,3 @@
-require("inferno.set")
-require("inferno.remap")
--- require('inferno.lsp')
-
+require("inferno.opts")
+require("inferno.packer")
+require("inferno.telescope")
