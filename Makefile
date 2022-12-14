@@ -1,4 +1,4 @@
-DOTFILES = nvim tmux xmonad
+DOTFILES = nvim tmux xmonad zsh
 
 clean-install: clean install
 
