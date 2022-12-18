@@ -10,3 +10,4 @@ zstyle :compinstall filename '/home/mehrank/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+export PATH=$PATH:/usr/local/go/bin
