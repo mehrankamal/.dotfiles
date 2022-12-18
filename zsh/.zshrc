@@ -11,3 +11,4 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 export PATH=$PATH:/usr/local/go/bin
+[ -f "/home/mehrank/.ghcup/env" ] && source "/home/mehrank/.ghcup/env"
