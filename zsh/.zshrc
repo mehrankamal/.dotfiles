@@ -10,5 +10,11 @@ zstyle :compinstall filename '/home/mehrank/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
 export PATH=$PATH:/usr/local/go/bin
 [ -f "/home/mehrank/.ghcup/env" ] && source "/home/mehrank/.ghcup/env"
