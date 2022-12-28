@@ -99,3 +99,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export PATH=$PATH:/usr/local/go/bin
+[ -f "/home/mehrank/.ghcup/env" ] && source "/home/mehrank/.ghcup/env"
