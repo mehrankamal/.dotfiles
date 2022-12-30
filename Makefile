@@ -1,4 +1,4 @@
-DOTFILES = nvim tmux xmonad zsh
+DOTFILES = nvim tmux xmonad zsh alacritty
 
 clean-install: clean install
 
