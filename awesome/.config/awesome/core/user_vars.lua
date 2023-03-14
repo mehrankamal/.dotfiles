@@ -12,7 +12,7 @@ local _M = {
     -- However, you can use another modifier like Mod1, but it may interact with others.
     modkey = "Mod4",
 
-    wallpaper = home .. '/wallpapers/current.png',
+    wallpaper = home .. '/.dotfiles/wallpapers/current.png',
 }
 
 return _M
