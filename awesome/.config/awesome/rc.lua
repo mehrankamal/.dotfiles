@@ -21,8 +21,8 @@ local theme_config_dir = gears.filesystem.get_configuration_dir() .. "/configura
 
 -- define default apps (global variable so other components can access it)
 apps = {
-   network_manager = "", -- recommended: nm-connection-editor
-   power_manager = "", -- recommended: xfce4-power-manager
+   network_manager = "nm-connection-editor", -- recommended: nm-connection-editor
+   power_manager = "xfce4-power-manager", -- recommended: xfce4-power-manager
    terminal = "alacritty",
    launcher = "rofi -normal-window -modi drun -show drun -theme " .. theme_config_dir .. "rofi.rasi",
    lock = "i3lock",
