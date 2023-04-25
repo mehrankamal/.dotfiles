@@ -7,4 +7,17 @@
     - [x] Javascript
     - [x] Golang
     - [x] Rust
-- XMonad Setup
+
+## Todo:
+[ ] Apt installs:
+  - [ ] feh
+  - [ ] picom
+  - [ ] rofi
+  - [ ] imagemagick
+  - [ ] i3lock
+  - [ ] acpi
+  - [ ] bluez, bluez-tools
+  - [ ] blueman
+  - [ ] scrot
+  - [ ] alsa-utils
+  - [ ] xbacklight
